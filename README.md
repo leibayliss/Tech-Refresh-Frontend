@@ -1,2 +1,4 @@
 # Tech-Refresh-Frontend
-HTML / CSS / BootStrap Exercise
+This Repo covers an exercise to create the HTML / CSS / BootStrap code for a development front end web project.  This is a collaborative project that will utilise a Node.JS backend and will serve the purpose to read data from a database and present it on the front end via a grid. 
+
+
