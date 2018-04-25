@@ -5,7 +5,7 @@ This is a collaborative project that will utilise a Node.JS backend and will ser
 
 The Frontend will look similar to this.  
 
-![alt text](https://github.com/leibayliss/Tech-Refresh-Frontend/blob/master/Static/img/Tech_Refresh.png "Front End Image")
+![alt text](https://github.com/leibayliss/Tech-Refresh-Frontend/blob/master/Static/img/frontend.png "Front End Image")
 
 
 ## How I did it?
