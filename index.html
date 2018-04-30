@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 
   <head>
-    <title> DXC App Portal </title>
-    <!-- Required meta tags -->
+    <title> Hack-a-Lash App Portal </title>
+<!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS and Other Stylesheet references -->
-      <link rel="stylesheet" type="text/css" href="static/css/bootstrap.css">
+<!-- Bootstrap CSS and Other Stylesheet references -->
+      <link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
       <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
-      <link href="static/css/signin.css" rel="stylesheet">
-    <!-- Style Settings -->
+    
+<!-- Style Settings -->
       <Style>
         h1 {
               text-align: center;
@@ -24,54 +24,10 @@
 
 <body>
 
-<!-- Nav Bar Section -->
-
-<div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Hack-a-Lash</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          Applications
-        </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" href="#">Tech Refresh</a>
-          <a class="dropdown-item" href="#">Release Advisor</a>
-          <div class="dropdown-divider"></div>
-          <a class="dropdown-item" href="#">My Profile</a>
-          <a class="dropdown-item" href="#">Create New Account</a>
-        </div>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Administration</a>
-      </li>
-    </ul>
-    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Enter Text Here" aria-label="Search">
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-    </form>
-  </div>
-</nav>
-</div>
-
-
-<h2> Welcome to the DXC App Portal</h2>
-
 <!-- Create the container for the Carousel -->
-<div class="container"-->
- <div class"row">
-   <div class="col-lg-12 center-block text-center">
+<div class="container">
+  <div class"row">
+    <div class="mx-auto px-100">
 
 <!-- This section defines the Carousel properties and characteristics -->
 <div id="maincarousel" class="carousel slide carousel-fade d-block d-md-block" data-ride="carousel">
@@ -81,35 +37,42 @@
         <li data-target="#maincarousel" data-slide-to="2"></li>
       </ol>
 
-      <!-- Wrapper for slides -->
-
+<!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
-      <div class="carousel-item active">
-        <div class="container">
-          <!--<div class="col-md-10 center-block text-center"> -->
-          <img class="d-block w-100" src="static/img/city1.jpg" alt="Tech Refresh">
-
-<!-- placeholder for the carousel text -->
-
-        </div>
-        </div>
+        <div class="carousel-item active">
+         <div class="container">
+              <img class="d-block w-100" src="static/img/city1.jpg" alt="Tech Refresh">
+                <div class="carousel-caption d-none d-block">
+                   <h2 class="mbr-section-title display-3">Tech Refresh</h2>
+                   <p class="mbr-section-lead lead">Run the Tech Refresh App to manage product status accross the enterprise.</p>
+                   <div class="mbr-section-btn"><a class="btn btn-lg btn-info btn-block" href="https://www.bbc.co.uk">Sign in...<br></a></div> 
+               </div>
+             </div>
+            </div>
+    
         <div class="carousel-item">
           <div class="container">
-          <img class="d-block w-100" src="static/img/city2.jpg" alt="Release Advisor">
-        </div>
-      </div>
+                <img class="d-block w-100" src="static/img/city2.jpg" alt="Release Advisor">
+                <div class="carousel-caption d-none d-block">
+                   <h3 class="mbr-section-title display-3">Release Advisor</h3>
+                   <p class="mbr-section-lead lead">Run the Release Advisor App to manage your project releases.</p>
+                   <div class="mbr-section-btn"><a class="btn btn-lg btn-info btn-block" href="https://www.bbc.co.uk">Sign in...<br></a> </div>
+               </div>
+              </div>
+             </div>
         <div class="carousel-item">
-          <div class="container">
-        <img class="d-block w-100" src="static/img/city3.jpg" alt="More Info">
-      </div>
-    </div>
+           <div class="container">
+                <img class="d-block w-100" src="static/img/city3.jpg" alt="More Info">
+                <div class="carousel-caption d-none d-block">
+                   <h3 class="mbr-section-title display-3">More Info</h3>
+                   <p class="mbr-section-lead lead">Click below to find out more about how you can get access to this App.</p>
+                   <div class="mbr-section-btn"><a class="btn btn-lg btn-info btn-block" href="https://www.bbc.co.uk">More Info...<br></a> </div>
+               </div>
+              </div>
+            </div>
 </div>
-</div>
-
-
-
-      <!-- Left and right controls -->
-
+    
+<!-- Left and right controls -->
   <a class="carousel-control-prev" href="#maincarousel" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
@@ -119,54 +82,14 @@
     <span class="sr-only">Next</span>
   </a>
 
+
+
+</div>
 </div>
 </div>
 </div>
 
-<!-- Login interface from Drop down -->
-<div class="dropdown-menu">
-  <form class="px-4 py-3">
-    <div class="form-group">
-      <label for="exampleDropdownFormEmail1">Email address</label>
-      <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
-    </div>
-    <div class="form-group">
-      <label for="exampleDropdownFormPassword1">Password</label>
-      <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Password">
-    </div>
-    <div class="form-check">
-      <input type="checkbox" class="form-check-input" id="dropdownCheck">
-      <label class="form-check-label" for="dropdownCheck">
-        Remember me
-      </label>
-    </div>
-    <button type="submit" class="btn btn-primary">Sign in</button>
-  </form>
-  <div class="dropdown-divider"></div>
-  <a class="dropdown-item" href="#">New around here? Sign up</a>
-  <a class="dropdown-item" href="#">Forgot password?</a>
-</div>
-
-<!-- Login interface from main page -->
-<div class="container">
-<!--  <div class="col-lg-6 center-block text-center"> -->
-      <form class="form-signin align-items-center">
-        <h3 class="form-signin-heading">Sign in...</h3>
-        <label for="inputEmail" class="sr-only">Email address</label>
-        <input type="email" id="inputEmail" class="form-control" placeholder="Email address" required autofocus>
-        <label for="inputPassword" class="sr-only">Password</label>
-        <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="remember-me"> Remember me
-          </label>
-        </div>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-      </form>
-    </div>
-    </div> <!-- /container -->
-
-    <!-- Optional JavaScript -->
+<!-- Optional JavaScript -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js" integrity="sha384-cs/chFZiN24E4KMATLdqdvsezGxaGsi4hLGOzlXwp5UZB1LY//20VyM2taTB4QvJ" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
